@@ -12,8 +12,13 @@ committed later.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+Check the differences between the codes in the working directionary and 
+the staging area with "git diff"before add the file to the staging area.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+Wenn you want to make some experimental modifications and don't know if it works. With branches you can easily turn back to the main line.
 
 How do the diagrams help you visualize the branch structure?
 
@@ -22,3 +27,4 @@ the diagram the way we do?
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+Automatic merging goes fast and easily while it doesn't success everytime.
